@@ -161,7 +161,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
       lineNumber: 16,
       columnNumber: 11
     }
-  }, "Aprend\xE9"), " a ahorrar ", __jsx("br", {
+  }, "Aprende"), " a ahorrar ", __jsx("br", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -209,7 +209,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
       lineNumber: 21,
       columnNumber: 11
     }
-  }, "Obten\xE9 reintegros")), __jsx("h3", {
+  }, "Obt\xE9n reintegros")), __jsx("h3", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -992,7 +992,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
       columnNumber: 5
     }
   }, __jsx(_BlogPreview__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    url: "https://blog.invuelto.cl/post/Cambiamos-tus-billetes-de-5-pesos-y-los-duplicamos",
+    url: "https://blog.invuelto.com/post/Ahorrar-es-conseguir-descuentos",
     showImages: showImages,
     __self: _this,
     __source: {
@@ -1009,7 +1009,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
       columnNumber: 5
     }
   }, __jsx(_BlogPreview__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    url: "https://blog.invuelto.cl/post/3-lecciones-para-manejar-mi-dinero-que-aprendi-tarde",
+    url: "https://blog.invuelto.com/post/3-lecciones-para-manejar-mi-dinero-que-aprendi-tarde",
     showImages: showImages,
     __self: _this,
     __source: {
@@ -1026,7 +1026,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
       columnNumber: 5
     }
   }, __jsx(_BlogPreview__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    url: "https://blog.invuelto.cl/post/Cuanto-tengo-que-ahorrar-por-mes",
+    url: "https://blog.invuelto.com/post/Cuanto-tengo-que-ahorrar-por-mes",
     showImages: showImages,
     __self: _this,
     __source: {
@@ -1793,7 +1793,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
       lineNumber: 7,
       columnNumber: 11
     }
-  }, "HOLA! SOMOS INVUELTO!"), __jsx("img", {
+  }, "Hola! Somos Invuelto!"), __jsx("img", {
     alt: "chachito",
     className: "jumbotron__pig",
     src: "../static/images/pig-welcome-covid.png",
@@ -1821,7 +1821,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
       lineNumber: 13,
       columnNumber: 11
     }
-  }, "HOLA! SOMOS INVUELTO!")), __jsx("div", {
+  }, "Hola! Somos Invuelto!")), __jsx("div", {
     className: "jumbotron__title col-lg-5 col-md-12 pr-0",
     __self: _this,
     __source: {
@@ -1858,12 +1858,36 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
       lineNumber: 17,
       columnNumber: 32
     }
-  }, "juntar plata es muuuy f\xE1cil."))), __jsx("div", {
+  }, "juntar plata es muuuy f\xE1cil.")), __jsx("p", {
+    className: "mb-5",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 9
+    }
+  }, "Pr\xF3ximamente..."), __jsx(_PrimaryButton__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    style: {
+      width: '260px !important'
+    },
+    disabled: true,
+    className: "mt-0",
+    bold: "registrarme",
+    onClick: function onClick() {
+      return window.location.assign('https://app.invuelto.com/register');
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 11
+    }
+  })), __jsx("div", {
     className: "jumbotron__circle",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 21,
       columnNumber: 9
     }
   }, __jsx("img", {
@@ -1872,7 +1896,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21,
+      lineNumber: 22,
       columnNumber: 11
     }
   }))));
@@ -1930,7 +1954,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
       lineNumber: 5,
       columnNumber: 3
     }
-  }, "Tu alcanc\xEDa gratis hasta $3.500."), __jsx("h3", {
+  }, "Tu alcanc\xEDa gratis hasta $35.000"), __jsx("h3", {
     className: "text-primary container",
     __self: _this,
     __source: {
@@ -3702,7 +3726,7 @@ var Nav = function Nav(props) {
 /***/ (function(module, exports) {
 
 module.exports = {
-  API_URL: 'https://api-test.invuelto.cl'
+  API_URL: 'https://api.invuelto.com'
 };
 
 /***/ }),
@@ -33311,7 +33335,7 @@ var Home = function Home() {
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!****************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fmariano%2FTrabajo%2FInvuelto%2Finvuelto-landing-chile%2Fpages%2Findex.js ***!
   \****************************************************************************************************************************************************/
@@ -33334,5 +33358,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js","styles"]]]);
+},[[2,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map
