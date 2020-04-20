@@ -519,7 +519,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
       lineNumber: 7,
       columnNumber: 3
     }
-  }, "Registrate y empez\xE1 a juntar plata en tu ", __jsx("br", {
+  }, "Reg\xEDstrate y empez\xE1 a juntar plata en tu ", __jsx("br", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -569,7 +569,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
       lineNumber: 12,
       columnNumber: 7
     }
-  }, "1. Registrate gratis"), __jsx("p", {
+  }, "1. Reg\xEDstrate gratis"), __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -765,7 +765,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
       lineNumber: 51,
       columnNumber: 9
     }
-  }, "1. Registrate gratis"), __jsx("p", {
+  }, "1. Reg\xEDstrate gratis"), __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -959,7 +959,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
       lineNumber: 5,
       columnNumber: 7
     }
-  }, "Conoc\xE9 nuestra academia del ahorro")), __jsx("h3", {
+  }, "Conoce nuestra academia del ahorro")), __jsx("h3", {
     className: "mt-5 text-primary d-none d-sm-block",
     __self: _this,
     __source: {
@@ -2696,6 +2696,23 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
       lineNumber: 15,
       columnNumber: 122
     }
+  }), showImages ? __jsx("img", {
+    alt: "startup chile",
+    className: "col",
+    src: "../static/images/startup-chile-logo.png",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 25
+    }
+  }) : __jsx("div", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 119
+    }
   }))))), showImages ? __jsx("img", {
     alt: "decorado",
     className: "security__circle2",
@@ -2703,14 +2720,14 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 21,
       columnNumber: 17
     }
   }) : __jsx("div", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 21,
       columnNumber: 114
     }
   }));
@@ -33335,7 +33352,7 @@ var Home = function Home() {
 
 /***/ }),
 
-/***/ 2:
+/***/ 1:
 /*!****************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fmariano%2FTrabajo%2FInvuelto%2Finvuelto-landing-chile%2Fpages%2Findex.js ***!
   \****************************************************************************************************************************************************/
@@ -33358,5 +33375,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js","styles"]]]);
+},[[1,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map
