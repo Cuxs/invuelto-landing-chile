@@ -1,0 +1,93 @@
+.security__container {
+  width: 100%;
+  padding: 20px 0px 0px 0px;
+  overflow: hidden;
+  position: relative;
+}
+.security__circle1 {
+  position: absolute;
+  z-index: 0;
+  margin: 400px 0px 0px -210px;
+}
+.security__subcontainer {
+  margin-top: 90px;
+  margin-bottom: 120px;
+}
+.pig__container {
+  text-align: right;
+}
+.security__pig {
+  width: 270px;
+}
+.security__images-container {
+  img {
+    min-width: 130px;
+    max-width: 220px;
+    height: 100%;
+  }
+}
+
+.security__elements-container {
+  height: 870px;
+  background-image: url("/static/images/banner-blue.png");
+  background-repeat: no-repeat;
+  background-size: 100% 90%;
+  text-align: center;
+  padding: 140px 0px 0px 0px;
+  z-index: -1;
+}
+
+.security__circle2 {
+  right: -200px;
+  position: absolute;
+  z-index: 0;
+  top: 30px;
+}
+@media screen and (max-width: 769px) {
+  .pig__container {
+    text-align: center;
+  }
+  .security__circle1 {
+    position: absolute;
+    z-index: 0;
+    margin:290px 0px 0px -210px;
+  }
+  .security__circle2 {
+    right: -200px;
+    position: absolute;
+    z-index: 0;
+    top: -5px;
+  }
+
+  .security__images-container {
+    img {
+      width: 250px;
+      height: 100%;
+      margin-top: 20px;
+    }
+  }
+  .security__subcontainer {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+}
+@media screen and (max-width: 725px) {
+  .security__elements-container {
+    height: 1000px;
+    background-size: cover
+  }
+}
+@media screen and (max-width: 470px) {
+  .security__elements-container {
+    height: 1200px;
+  }
+}
+@media screen and (max-width: 321px) {
+  .security__pig {
+    width: 170px;
+  }
+  .security__elements-container {
+    height: 1100px;
+    background-size: cover
+  }
+}

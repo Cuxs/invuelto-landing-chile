@@ -1,0 +1,31 @@
+.preview__image{
+  width: 250px;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 10px solid $primaryColor;
+  border-radius: 100%;
+  margin-bottom: 40px;
+  &:hover{
+    opacity: 0.5;
+    transition: opacity  0.5s ease-in;;
+  }
+}
+.preview__title{
+  font-size: 18px;
+  width: 80%;
+  text-align: center;
+}
+.preview__description{
+  margin: 20px 0px 20px 0px;
+  font-size: 14px;
+  width: 90%;
+
+}
+@media screen and (max-width: 769px) {
+  .preview__image{
+    width: 200px;
+    height: 200px;
+  }
+}

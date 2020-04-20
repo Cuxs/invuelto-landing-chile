@@ -1,0 +1,152 @@
+.jumbotron__container {
+  margin-top: 120px;
+}
+.jumbotron__elements-container {
+  background-image: url("/static/images/bg-blue.png");
+  background-repeat: no-repeat;
+  height: 700px;
+  position: relative;
+  margin-top: -120px;
+  background-position: -300px -250px;
+  z-index: -1;
+}
+.jumbotron__blue-bg {
+  margin: -20px 0px 0px -11px;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+.jumbotron__pig {
+  position: absolute;
+  left: 120px;
+  top: 140px;
+  width: 300px;
+}
+.jumbotron__phone {
+  position: absolute;
+  width: 160px;
+  top: 220px;
+  left: 430px;
+}
+.jumbotron__spot-title {
+  position: absolute;
+  color: $color3;
+  top: 480px;
+  left: 50px;
+  font-size: 30px;
+}
+.jumbotron__title {
+  margin: 150px 0px 0px 15px;
+}
+.jumbotron__circle {
+  overflow: hidden;
+  position: absolute;
+  top: 370px;
+  right: 0px;
+  width: 130px;
+  z-index: -1;
+}
+
+@media screen and (max-width: 1200px) {
+  .jumbotron__title {
+    margin: 150px 15px 0px 15px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .jumbotron__elements-container {
+    background-position: -365px -250px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .jumbotron__title {
+    margin: -15px 15px 0px 15px;
+    text-align: center;
+  }
+  .jumbotron__container {
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .jumbotron__elements-container {
+    background-origin: content-box;
+    background-size: 655px 710px;
+    background-position-x: -223px;
+    height: 560px;
+    background-position-y: -100px;
+
+  }
+  .jumbotron__spot-title {
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    margin-left: 15px;
+  }
+  .jumbotron__coin-1 {
+    width: 60px;
+  }
+  .jumbotron__coin-2 {
+    display: none;
+  }
+  .jumbotron__pig {
+    left: 70px;
+    top: 190px;
+    width: 200px;
+  }
+  .jumbotron__phone {
+    width: 120px;
+    top: 290px;
+    left: 240px;
+  }
+  .jumbotron__circle {
+    overflow: hidden;
+    z-index: -20;
+    img {
+      width: 300px;
+    }
+  }
+}
+@media screen and (max-width: 320px) {
+  .jumbotron__elements-container {
+    background-origin: content-box;
+    background-size: 520px 560px;
+    background-position-x: -170px;
+    background-position-y: -80px;
+    height: 450px;
+  }
+  .jumbotron__pig {
+    left: 40px;
+    top: 190px;
+    width: 160px;
+  }
+  .jumbotron__phone {
+    width: 100px;
+    top: 260px;
+    left: 170px;
+  }
+  .jumbotron__spot-title {
+    top: 120px;
+    left: 20px;
+    font-size: 20px;
+    margin-left: 15px;
+    text-align: center;
+  }
+  .jumbotron__coin-1 {
+    display: none;
+  }
+  .jumbotron__container{
+    margin-top: 90px;
+  }
+  .jumbotron__title {
+    margin:0px;
+    h2{
+      margin:0px;
+      line-height: 140%;
+    }
+    p{
+      margin-bottom: 10px !important;
+    }
+
+  }
+}

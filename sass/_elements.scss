@@ -1,0 +1,115 @@
+.button-primary {
+  font-family: "Mazzard H";
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 15px;
+  color: $color3;
+  background-color: $primaryColor;
+  border-radius: 24px;
+  letter-spacing: 0.5px;
+  min-width: 170px;
+  padding: 17px 25px 15px 25px;
+  box-shadow: 3px 3px 0px 3px $color3, 10px 8px 5px $grey4;
+  border:none;
+  &:disabled {
+    color: white;
+    box-shadow: 3px 3px 0px 3px$color5, 10px 8px 5px $grey4;
+  }
+  &:focus {
+    background-color: $color3;
+    color: $primaryColor;
+    box-shadow: 3px 3px 0px 3px$primaryColor, 10px 8px 5px  $grey4;
+  }
+  &:hover {
+    background-color: $color3;
+    color: $primaryColor;
+    box-shadow: 3px 3px 0px 3px$primaryColor, 10px 8px 5px  $grey4;
+    transition: background-color 0.3s ease-in;
+    transition: 0.3s ease-in;
+  }
+}
+.button-special {
+  text-transform: uppercase;
+  height: 50px;
+  font-family: "Mazzard H";
+  font-weight: 100;
+  font-size: 15px;
+  color: $primaryColor;
+  cursor: pointer;
+  background-color: white;
+  border: 3px solid $primaryColor;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  border-radius: 24px;
+  padding: 3px 25px 0px 25px;
+  min-width: 170px;
+  &:hover {
+    color: $secondaryColor;
+    border: 3px solid $secondaryColor;
+
+  }
+}
+.button-secondary {
+  max-height: 50px;
+  font-family: "Mazzard H";
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 15px;
+  color: $secondaryColor;
+  min-width: 170px;
+  background-color: $primaryColor;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  border-radius: 24px;
+  padding: 15px 25px 15px 25px;
+  box-shadow: 5px 5px 3px -1px $grey4;
+  &:hover {
+    color: $primaryColor;
+    background-color: $secondaryColor;
+
+  }
+}
+.new-item{
+  a{
+    &:hover{
+      color: $secondaryColor !important;
+      text-decoration-color: $secondaryColor;
+    }
+    small{
+      position: absolute;
+      top:20px;
+      font-size: 7px;
+    }
+  }
+}
+@media screen and (max-width: 769px) {
+  .button-secondary, .button-primary {
+    min-width: 120px;
+    max-height: 50px;
+    padding: 15px 25px 15px 25px;
+    border-radius: 15px;
+  }
+  .button-special{
+    min-width: 120px;
+    max-height: 50px;
+    border-radius: 15px;
+  }
+}
+@media screen and (max-width: 321px) {
+  .button-special{
+    height: 35px;
+    font-size: 12px;
+    border: 2px solid $primaryColor;
+    padding: 5px 10px 5px 10px;
+    min-width: 10px;
+  }
+  .button-secondary, .button-primary {
+    font-size: 12px;
+    height: 35px;
+    padding: 5px 10px 5px 10px;
+    // min-width: 30px;
+    // width: 20px;
+    // max-height: 40px;
+    // font-size: 10px;
+  }
+}

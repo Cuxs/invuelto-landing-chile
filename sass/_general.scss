@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,600&display=swap');
+
+@font-face {
+  font-family: 'Mazzard H';
+  src: url('../static/fonts/MazzardH-Italic.woff2') format('woff2'),
+      url('../static/fonts/MazzardH-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Mazzard H';
+  src: url('../static/fonts/MazzardH-LightItalic.woff2') format('woff2'),
+      url('../static/fonts/MazzardH-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Mazzard H';
+  src: url('../static/fonts/MazzardH-Light.woff2') format('woff2'),
+      url('../static/fonts/MazzardH-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mazzard H';
+  src: url('../static/fonts/MazzardH-Regular.woff2') format('woff2'),
+      url('../static/fonts/MazzardH-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mazzard H';
+  src: url('../static/fonts/MazzardH-SemiBoldItalic.woff2') format('woff2'),
+      url('../static/fonts/MazzardH-SemiBoldItalic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Mazzard H';
+  src: url('../static/fonts/MazzardH-SemiBold.woff2') format('woff2'),
+      url('../static/fonts/MazzardH-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+html {
+  scroll-behavior: smooth;
+}
+body{
+  background-color: white;
+  overflow-x: hidden;
+}
+nav{
+  color:$primaryColor;
+  position: fixed;
+  top: -10px;
+  z-index: 10;
+  width: 100%;
+}
+
+h1{
+  font-family: 'Mazzard H', sans-serif !important;
+  font-size: 40px;
+  font-weight: 500;
+  color: $secondaryColor;
+}
+h2{
+  font-family: 'Mazzard H', sans-serif !important;
+  font-size: 35px;
+  font-weight: 200;
+  line-height: 36px;
+  letter-spacing: 1px;
+  color: $secondaryColor;
+}
+h3{
+  font-family: 'Mazzard H', sans-serif !important;
+  font-size: 25px;
+  font-weight: 200;
+  color: $primaryColor;
+}
+h4{
+  font-family: 'Mazzard H', sans-serif !important;
+  font-size: 15px;
+  font-weight: 500;
+  color: $secondaryColor;
+}
+h5{
+  font-family: 'Mazzard H', sans-serif !important;
+  font-size: 13px;
+  font-weight: 500;
+  color: $primaryColor;
+}
+p{
+  font-family: 'Open sans', sans-serif;
+  font-weight: lighter;
+  font-size: 18px;
+  color: $grey2;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+b{
+  font-weight: 900;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+a{
+  font-family: 'Mazzard H', sans-serif !important;
+}
+
+.text-primary{
+  color: $primaryColor !important;
+}
+.text-secondary{
+  color: $secondaryColor !important;
+}
+.text-color3{
+  color: $color3 !important;
+}
+.text-grey3{
+  color: $grey3 !important;
+}
+@media screen and (max-width: 320px){
+  h1{
+    font-size: 30px;
+    color: $secondaryColor;
+  }
+  h2{
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 1px;
+    color: $secondaryColor;
+  }
+  h3{
+    font-size: 18px;
+    color: $primaryColor;
+    margin-bottom: 0px;
+  }
+  h4{
+    font-size: 10px;
+    color: $secondaryColor;
+  }
+  h5{
+    font-size: 8px;
+    color: $primaryColor;
+  }
+  b{
+    line-height: normal;
+    margin-bottom: 0px;
+  }
+  p{
+    font-weight: lighter;
+    font-size: 14px;
+    color: $grey2;
+    line-height: normal;
+    margin-bottom: 0px;
+  }
+}

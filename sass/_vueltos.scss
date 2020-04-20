@@ -1,0 +1,149 @@
+.vueltos__image1 {
+  position: absolute;
+  top: -100px;
+  left: -60px;
+  width: 650px;
+}
+.vueltos__image2 {
+  position: absolute;
+  z-index: 1;
+  left: 320px;
+  top: 30px;
+  width: 300px;
+}
+.vueltos__image3 {
+  position: absolute;
+  width: 280px;
+  z-index: 1;
+  left: 30px;
+}
+.vueltos__jumbotron--images {
+  height: 400px;
+  overflow: hidden;
+}
+.vueltos__jumbotron--text {
+  text-align: right;
+  width: 50%;
+  margin-top: 80px;
+}
+.vueltos__video-container {
+  width: 70%;
+  margin: 50px auto 60px auto;
+  img {
+    width: 60px;
+    height: 100%;
+  }
+  iframe {
+    width: 100%;
+  }
+}
+.icon__container {
+  background: $color3;
+  border-radius: 100%;
+  width: 90px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto 20px auto; 
+}
+.deco1{
+  position: absolute;
+  right: 200px;
+  top: 300px;
+  width: 190px
+}
+.deco2{
+  position: absolute;
+  left: 30px;
+  top: 100%;
+}
+.deco3{
+  position: absolute;
+  top:1800px;
+  right: 0px;
+  width: 200px
+}
+.deco4{
+  position: absolute;
+  right: 30px;
+  top: 180%;
+  width: 190px
+}
+.deco5{
+  position: absolute;
+  right: -400px;
+  top: 50%;
+  width: 500px;
+  z-index: -1;
+}
+.deco6{
+  position: absolute;
+  bottom:-120px;
+  left:-120px;
+}
+.deco7{
+  position: absolute;
+  left: -400px;
+  top: 155%;
+  width: 500px;
+  z-index: -1;
+}
+.vueltos__footer{
+  text-align: left;
+  color: $color3;
+  margin-top: 240px;
+}
+@media screen and (max-width: 1024px) {
+  .deco7{
+    display:none;
+  }
+  .deco5{
+    display:none;
+  }
+  .deco4{
+    display:none;
+  }
+  .deco3{
+    display:none;
+  }
+  .deco2{
+    display:none;
+  }
+  .deco1{
+    display:none;
+  }
+  .vueltos__jumbotron--text {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 990px) {
+  .carousel .slider-wrapper {height: 300px !important;}
+  .control-dots{
+    padding:0 !important;
+    margin-top:0px !important;
+  }
+  .vueltos__image1 {
+    left: -100px;
+  }
+  .vueltos__image2 {
+    left: 20px;
+    top: 160px;
+  }
+  .vueltos__image3 {
+    left: -10px;
+    width: 200px;
+  }
+  .vueltos__jumbotron--text {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .vueltos__video-container {
+    width: 100%;
+  }
+  .vueltos__footer{
+    margin-top: 200px;
+  }
+}
