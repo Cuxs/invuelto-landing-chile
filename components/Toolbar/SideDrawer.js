@@ -13,7 +13,6 @@ export default props => {
       <button className="side-drawer__close-button" onClick={props.click}>&#8592;</button>
       <div className="text-center">
         <ul>
-          <li><div><a href="/vueltos">Vueltos</a></div></li>
           <li>{props.external ? <a href="index#tus-intereses-primero">Cómo funciona</a>:
         <Link onClick={() => props.click()}  activeClass="side-drawer--active" to="tus-intereses-primero" offset={-120} duration={1000}>
                 Cómo funciona
@@ -35,7 +34,6 @@ export default props => {
               </Link>
             }</li>
         </ul>
-        <SecondaryButton className="side-drawer__login" onClick={() => window.location.assign('https://app.invuelto.com/login')}>Ingresá</SecondaryButton>
       </div>
       <img alt="decorado" className="side-drawer__circle2" src="../../static/images/half-circle-blue-thin.png"></img>
     </nav>

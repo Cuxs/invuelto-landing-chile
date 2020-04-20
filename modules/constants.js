@@ -1,1 +1,1 @@
-module.exports = {API_URL: 'https://api-test.invuelto.com'}
+module.exports = {API_URL: 'https://api-test.invuelto.cl'}

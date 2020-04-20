@@ -7,13 +7,13 @@ export default ({showImages}) =>
   <h3 className="text-primary mb-5 d-none d-sm-block">máximo provecho a tu plata.</h3>
   <div className='d-block d-md-flex justify-content-around mt-4'>
     <div className="microlink__container">
-    <BlogPreview url="https://blog.invuelto.com/post/Cambiamos-tus-billetes-de-5-pesos-y-los-duplicamos" showImages={showImages} />
+    <BlogPreview url="https://blog.invuelto.cl/post/Cambiamos-tus-billetes-de-5-pesos-y-los-duplicamos" showImages={showImages} />
     </div>
     <div className="microlink__container d-none d-sm-block">
-      <BlogPreview url="https://blog.invuelto.com/post/3-lecciones-para-manejar-mi-dinero-que-aprendi-tarde" showImages={showImages} />
+      <BlogPreview url="https://blog.invuelto.cl/post/3-lecciones-para-manejar-mi-dinero-que-aprendi-tarde" showImages={showImages} />
     </div>
     <div className="microlink__container d-none d-sm-block">
-    <BlogPreview url="https://blog.invuelto.com/post/Cuanto-tengo-que-ahorrar-por-mes" showImages={showImages} />
+    <BlogPreview url="https://blog.invuelto.cl/post/Cuanto-tengo-que-ahorrar-por-mes" showImages={showImages} />
     </div>
 
   </div>

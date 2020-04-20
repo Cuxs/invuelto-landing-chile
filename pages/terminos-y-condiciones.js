@@ -13,7 +13,7 @@ return  (
   <Fragment>
     <Swipe onSwipeLeft={() =>toggleSideDrawer(false)}>
       <Head title="Términos y condiciones" description="Desarrollamos una herramienta con la que ahora sí vas a poder ahorrar, cuidamos tu plata de la inflación ya que tus ahorros generan intereses a
-  tu favor. Vos elegís el monto y la forma de ingresar dinero." url="www.invuelto.com" />
+  tu favor. Vos elegís el monto y la forma de ingresar dinero." url="www.invuelto.cl" />
       <Nav open={sideDrawerOpen} toggle={toggleSideDrawer} external></Nav>
       <div className="terms__container container">
       <ReactMarkdown source={terms()} />

@@ -57,8 +57,8 @@ export default () => <div className="pricing__container" id="precios">
       </div>
     </Carousel>
   </div>
-  <p className="mt-5 container">$50 por mes, si superaste los $3.500 de ahorro,</p>
-  <p className="container">Y el 0,16% mensual si superás los $25.000 de ahorro.</p>
+  <p className="mt-5 container">CLP $900 por mes, si superaste los CLP $35.000 de ahorro,</p>
+  <p className="container">Y el 0,16% mensual si superás los CLP $250.000 de ahorro.</p>
 
 
 </div>

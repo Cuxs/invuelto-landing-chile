@@ -9,5 +9,5 @@ export default () => <div className="text-center container">
     <h2>¿No sabés en qué ni cuándo se te va la plata?</h2>
   </span> */}
   {/* <p className="mb-4">Con esta herramienta vas a lograr <b>ahorrarla</b>.</p>
-<PrimaryButton className="text-center" bold="activá" noBold="tu alcancía" onClick={() => window.location.assign('https://app.invuelto.com/register')} /> */}
+<PrimaryButton className="text-center" bold="activá" noBold="tu alcancía" onClick={() => window.location.assign('https://app.invuelto.cl/register')} /> */}
 </div>

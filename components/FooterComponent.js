@@ -8,7 +8,7 @@ export default ({ showImages }) => <div className="footer__container" style={{ h
           <h2 className="text-color3" style={{ fontSize: '25px' }}>Enterate de nuestras novedades </h2>
           <div className='d-lg-flex flex-md-column mt-5 justify-content-around'>
             <div>
-              <a href="/"><h2 className="text-color3"><b>invuelto</b>.com</h2></a>
+              <a href="/"><h2 className="text-color3"><b>invuelto</b>.cl</h2></a>
             </div>
             <div className="mt-4">
               <a className="ml-3" target="__blank" rel="noopener noreferrer" href="https://facebook.com/invuelto"><img alt="redes" src='../static/images/fb.png' /></a>

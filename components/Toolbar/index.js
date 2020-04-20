@@ -47,7 +47,6 @@ export default props => {
                 Cómo funciona
               </Link>
             }</li>
-            <li><div><a href="/vueltos" style={{color:"#01D9CD"}}>Vueltos</a></div></li>
             <li>{props.external ?
               <a href="/index#precios">Precios</a>
               :
@@ -70,10 +69,7 @@ export default props => {
               </Link>
             }</li>
           </ul>
-          <SpecialButton className="toolbar__button-group1 ml-2" onClick={() => window.location.assign('https://app.invuelto.com/login')}>INGRESAR</SpecialButton>
-          <SecondaryButton className="toolbar__button-group1 ml-2" onClick={() => window.location.assign('https://app.invuelto.com/register')}>Registrarme</SecondaryButton>
         </div>
-        <div style={{marginRight:'15px'}}><SpecialButton className="toolbar__button-group2" onClick={() => window.location.assign('https://app.invuelto.com/login')}>Comenzar</SpecialButton></div>
 
       </div>
     </header>
